@@ -1,3 +1,7 @@
+![arara](https://github.com/caninde-theme/caninde/blob/main/assets/arara.jpg)
+_Foto por [LeonardoRamos](https://wikimedia.org), licenciada sob [CC BY-SA 4.0](https://creativecommons.org) via Wikimedia Commons._
+
+
 # Canindé 🦜
 
 **🇧🇷 Português** · [🇺🇸 English](README.en.md)
