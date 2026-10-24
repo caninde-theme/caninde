@@ -28,6 +28,20 @@ Canindé parte dessas cores e as transforma em um **sistema de tema** para edito
 | Urucum | `#E85D52` | Fora da ave: o pigmento do urucum, reservado para erros |
 | Ipê | `#C77FD8` | Fora da ave: flores de ipê, um acento raro |
 
+## The palette (the essence)
+
+| Visualização | Color | Hex | Where it comes from |
+| :---: | --- | --- | --- |
+| ![#1E9BD7](https://img.shields.io/static/v1?label=&message=%231E9BD7&color=1E9BD7&style=flat-square) | Azul | `#1E9BD7` | Dorso e asas. A cor da marca |
+| ![#2BB5B0](https://img.shields.io/static/v1?label=&message=%232BB5B0&color=2BB5B0&style=flat-square) | Turquesa | `#2BB5B0` | Onde a coroa verde encontra o azul |
+| ![#A3B83A](https://img.shields.io/static/v1?label=&message=%23A3B83A&color=A3B83A&style=flat-square) | Verde | `#A3B83A` | Coroa |
+| ![#F2B01E](https://img.shields.io/static/v1?label=&message=%23F2B01E&color=F2B01E&style=flat-square) | Ouro | `#F2B01E` | Peito. A cor de destaque |
+| ![#E8892B](https://img.shields.io/static/v1?label=&message=%23E8892B&color=E8892B&style=flat-square) | Laranja | `#E8892B` | Pescoço, a transição quente |
+| ![#E85D52](https://img.shields.io/static/v1?label=&message=%23E85D52&color=E85D52&style=flat-square) | Urucum | `#E85D52` | Fora da ave: o pigmento do urucum, reservado para erros |
+| ![#C77FD8](https://img.shields.io/static/v1?label=&message=%23C77FD8&color=C77FD8&style=flat-square) | Ipê | `#C77FD8` | Fora da ave: flores de ipê, um acento raro |
+
+
+
 Fundo e texto vêm de um neutro "preto-bico" com um leve tom azulado, em `tokens/essence.json`.
 
 ## Como funciona
