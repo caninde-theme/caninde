@@ -19,13 +19,13 @@ Canindé starts from those colors and turns them into a **theme system** for edi
 
 | Visualização | Color | Hex | Where it comes from |
 | :---: | --- | --- | --- |
-| ![#1E9BD7](https://img.shields.io/static/v1?label=&message=%231E9BD7&color=1E9BD7&style=flat-square) | Azul (blue) | `#1E9BD7` | Back and wings. The brand color |
-| ![#2BB5B0](https://img.shields.io/static/v1?label=&message=%232BB5B0&color=2BB5B0&style=flat-square) | Turquesa (turquoise) | `#2BB5B0` | Where the green crown meets the blue |
-| ![#A3B83A](https://img.shields.io/static/v1?label=&message=%23A3B83A&color=A3B83A&style=flat-square) | Verde (green) | `#A3B83A` | Crown |
-| ![#F2B01E](https://img.shields.io/static/v1?label=&message=%23F2B01E&color=F2B01E&style=flat-square) | Ouro (gold) | `#F2B01E` | Chest. The highlight color |
-| ![#E8892B](https://img.shields.io/static/v1?label=&message=%23E8892B&color=E8892B&style=flat-square) | Laranja (orange) | `#E8892B` | Neck, the warm transition |
-| ![#E85D52](https://img.shields.io/static/v1?label=&message=%23E85D52&color=E85D52&style=flat-square) | Urucum (annatto red) | `#E85D52` | Not on the bird: annatto pigment, reserved for errors |
-| ![#C77FD8](https://img.shields.io/static/v1?label=&message=%23C77FD8&color=C77FD8&style=flat-square) | Ipê (purple) | `#C77FD8` | Not on the bird: ipê blossoms, a rare accent |
+| ![#1E9BD7](https://img.shields.io/static/v1?label=&message=%231E9BD7&color=1E9BD7&style=flat-square) | Blue | `#1E9BD7` | Back and wings. The brand color |
+| ![#2BB5B0](https://img.shields.io/static/v1?label=&message=%232BB5B0&color=2BB5B0&style=flat-square) | Turquoise | `#2BB5B0` | Where the green crown meets the blue |
+| ![#A3B83A](https://img.shields.io/static/v1?label=&message=%23A3B83A&color=A3B83A&style=flat-square) | Green | `#A3B83A` | Crown |
+| ![#F2B01E](https://img.shields.io/static/v1?label=&message=%23F2B01E&color=F2B01E&style=flat-square) | Gold | `#F2B01E` | Chest. The highlight color |
+| ![#E8892B](https://img.shields.io/static/v1?label=&message=%23E8892B&color=E8892B&style=flat-square) | Orange | `#E8892B` | Neck, the warm transition |
+| ![#E85D52](https://img.shields.io/static/v1?label=&message=%23E85D52&color=E85D52&style=flat-square) | Annatto red | `#E85D52` | Not on the bird: annatto pigment, reserved for errors |
+| ![#C77FD8](https://img.shields.io/static/v1?label=&message=%23C77FD8&color=C77FD8&style=flat-square) | Purple | `#C77FD8` | Not on the bird: ipê blossoms, a rare accent |
 
 
 
