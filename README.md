@@ -86,6 +86,10 @@ Para criar variantes (claro, alto contraste, daltônicos), adicione uma entrada 
 
 Quer levar o Canindé para o seu app favorito? Comece pelo [`docs/PORTING.md`](docs/PORTING.md) e abra uma issue com o modelo **New app port** (etiqueta `good first port`). Veja também o [`CONTRIBUTING.md`](CONTRIBUTING.md). Issues e PRs em português são muito bem-vindos.
 
+## Agradecimentos
+
+Parte dos exemplos de códigos(sintaxe) foram tirados do repositório [syntax-highlighting-samples](https://github.com/uloco/syntax-highlighting-samples)
+
 ## Criado por
 
 **Andre Duarch** ([@duarch](https://github.com/duarch)), criador e mantenedor, e [todas as pessoas que contribuem](https://github.com/caninde-theme/caninde/graphs/contributors).
