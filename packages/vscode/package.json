@@ -1,0 +1,35 @@
+{
+  "name": "caninde",
+  "displayName": "Canindé",
+  "description": "A dark theme inspired by the Arara-Canindé, the blue-and-yellow macaw. Um tema escuro inspirado na Arara-Canindé.",
+  "version": "0.1.0",
+  "publisher": "caninde-theme",
+  "license": "MIT",
+  "author": {
+    "name": "Andre Duarch",
+    "url": "https://github.com/duarch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caninde-theme/caninde.git",
+    "directory": "packages/vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/caninde-theme/caninde/issues"
+  },
+  "homepage": "https://github.com/caninde-theme/caninde#readme",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Themes"],
+  "keywords": ["theme", "dark", "color-theme", "caninde", "canindé", "macaw", "arara", "brasil"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Canindé",
+        "uiTheme": "vs-dark",
+        "path": "./themes/caninde-dark-color-theme.json"
+      }
+    ]
+  }
+}

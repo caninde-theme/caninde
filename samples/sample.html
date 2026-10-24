@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Canindé</title>
+    <style>
+      .macaw > h1 {
+        color: #1e9bd7;
+        font: 700 2rem/1.2 system-ui;
+      }
+      #chest {
+        background: rgb(242 176 30 / 80%);
+        margin: 1.5rem auto;
+      }
+    </style>
+  </head>
+  <body class="macaw">
+    <!-- A Arara-Canindé -->
+    <h1 id="title" data-count="12">Arara-Canindé</h1>
+    <button type="button" onclick="alert('Squawk!')" disabled>Chamar</button>
+    <script>
+      const el = document.querySelector("#title");
+      el.addEventListener("click", () => (el.textContent += " 🦜"));
+    </script>
+  </body>
+</html>

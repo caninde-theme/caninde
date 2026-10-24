@@ -1,0 +1,82 @@
+{
+  "$comment": "The essence of Canindé. Edit these values, run `npm run build`, and every app target is regenerated.",
+  "name": "Canindé",
+  "id": "caninde",
+  "inspiration": "Arara-Canindé (Ara ararauna), the blue-and-yellow macaw",
+  "seeds": {
+    "azul": {
+      "hex": "#1E9BD7",
+      "from": "ave",
+      "note": "Back and wings. The brand color."
+    },
+    "turquesa": {
+      "hex": "#2BB5B0",
+      "from": "ave",
+      "note": "Interpolated where the green crown melts into the blue."
+    },
+    "verde": {
+      "hex": "#A3B83A",
+      "from": "ave",
+      "note": "Crown."
+    },
+    "ouro": {
+      "hex": "#F2B01E",
+      "from": "ave",
+      "note": "Chest. The highlight color."
+    },
+    "laranja": {
+      "hex": "#E8892B",
+      "from": "ave",
+      "note": "Neck, the warm transition between chest and wing."
+    },
+    "urucum": {
+      "hex": "#E85D52",
+      "from": "cultura",
+      "note": "Not on the bird. Annatto (urucum) pigment, reserved for errors."
+    },
+    "ipe": {
+      "hex": "#C77FD8",
+      "from": "flora",
+      "note": "Not on the bird. Ipê blossoms, a rare accent for decorators and escapes."
+    }
+  },
+  "neutral": {
+    "hue": 255,
+    "chroma": 0.018,
+    "note": "Beak-black with a faint feather-blue tint."
+  },
+  "params": {
+    "chromaScale": 1,
+    "chromaFalloff": 1.4,
+    "chromaFloor": 0.2
+  },
+  "ramp": {
+    "chromatic": {
+      "50": 0.97,
+      "100": 0.93,
+      "200": 0.87,
+      "300": 0.8,
+      "400": 0.72,
+      "500": 0.64,
+      "600": 0.55,
+      "700": 0.46,
+      "800": 0.37,
+      "900": 0.28,
+      "950": 0.2
+    },
+    "neutral": {
+      "50": 0.98,
+      "100": 0.95,
+      "200": 0.9,
+      "300": 0.82,
+      "400": 0.72,
+      "500": 0.62,
+      "600": 0.52,
+      "700": 0.42,
+      "800": 0.32,
+      "850": 0.26,
+      "900": 0.2,
+      "950": 0.15
+    }
+  }
+}

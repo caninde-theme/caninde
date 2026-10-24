@@ -1,0 +1,75 @@
+{
+  "$comment": "Accessibility rules enforced by `npm run check`. Each rule says: these foreground roles must reach `min` contrast (WCAG ratio) on this background role, in every variant.",
+  "rules": [
+    {
+      "bg": "bg.base",
+      "min": 7,
+      "fg": ["fg.default", "syntax.variable"]
+    },
+    {
+      "bg": "bg.base",
+      "min": 4.5,
+      "fg": [
+        "fg.muted",
+        "fg.subtle",
+        "accent.primary",
+        "accent.secondary",
+        "status.error",
+        "status.warning",
+        "status.success",
+        "status.info",
+        "syntax.comment",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.string",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.type",
+        "syntax.parameter",
+        "syntax.property",
+        "syntax.operator",
+        "syntax.punctuation",
+        "syntax.tag",
+        "syntax.attribute",
+        "syntax.regexp",
+        "syntax.escape",
+        "syntax.decorator",
+        "syntax.invalid",
+        "markup.heading",
+        "markup.bold",
+        "markup.link",
+        "markup.code",
+        "markup.quote",
+        "ansi.red",
+        "ansi.green",
+        "ansi.yellow",
+        "ansi.blue",
+        "ansi.magenta",
+        "ansi.cyan",
+        "ansi.white",
+        "ansi.brightBlack",
+        "ansi.brightWhite"
+      ]
+    },
+    {
+      "bg": "bg.sunken",
+      "min": 4.5,
+      "fg": ["fg.default", "fg.muted", "fg.subtle", "accent.primary", "accent.secondary"]
+    },
+    {
+      "bg": "bg.raised",
+      "min": 4.5,
+      "fg": ["fg.default", "fg.muted"]
+    },
+    {
+      "bg": "accent.primary",
+      "min": 4.5,
+      "fg": ["fg.inverse"]
+    },
+    {
+      "bg": "accent.secondary",
+      "min": 4.5,
+      "fg": ["fg.inverse"]
+    }
+  ]
+}

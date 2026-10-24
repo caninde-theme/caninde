@@ -1,0 +1,76 @@
+{
+  "$comment": "Maps every role in roles.json to a palette reference (\"family.step\", e.g. \"azul.base\" or \"neutral.900\"). Each variant is one theme. Add a \"light\" variant here to ship Canindé Claro.",
+  "variants": {
+    "dark": {
+      "label": "Canindé",
+      "type": "dark",
+      "roles": {
+        "bg.base": "neutral.900",
+        "bg.sunken": "neutral.950",
+        "bg.raised": "neutral.850",
+        "bg.overlay": "neutral.850",
+        "bg.hover": "neutral.800",
+        "bg.active": "neutral.700",
+
+        "border.default": "neutral.800",
+        "border.subtle": "neutral.850",
+
+        "fg.default": "neutral.100",
+        "fg.muted": "neutral.400",
+        "fg.subtle": "neutral.500",
+        "fg.inverse": "neutral.950",
+
+        "accent.primary": "azul.base",
+        "accent.primary.hover": "azul.300",
+        "accent.secondary": "ouro.base",
+
+        "status.error": "urucum.base",
+        "status.warning": "laranja.base",
+        "status.success": "verde.base",
+        "status.info": "turquesa.base",
+
+        "syntax.comment": "neutral.500",
+        "syntax.keyword": "azul.base",
+        "syntax.function": "ouro.base",
+        "syntax.string": "verde.base",
+        "syntax.number": "laranja.base",
+        "syntax.constant": "laranja.base",
+        "syntax.type": "turquesa.base",
+        "syntax.variable": "neutral.100",
+        "syntax.parameter": "laranja.300",
+        "syntax.property": "azul.300",
+        "syntax.operator": "neutral.400",
+        "syntax.punctuation": "neutral.400",
+        "syntax.tag": "azul.base",
+        "syntax.attribute": "ouro.400",
+        "syntax.regexp": "ipe.300",
+        "syntax.escape": "ipe.base",
+        "syntax.decorator": "ipe.base",
+        "syntax.invalid": "urucum.base",
+
+        "markup.heading": "ouro.base",
+        "markup.bold": "laranja.base",
+        "markup.link": "azul.300",
+        "markup.code": "verde.base",
+        "markup.quote": "neutral.400",
+
+        "ansi.black": "neutral.800",
+        "ansi.red": "urucum.base",
+        "ansi.green": "verde.base",
+        "ansi.yellow": "ouro.base",
+        "ansi.blue": "azul.base",
+        "ansi.magenta": "ipe.base",
+        "ansi.cyan": "turquesa.base",
+        "ansi.white": "neutral.300",
+        "ansi.brightBlack": "neutral.500",
+        "ansi.brightRed": "urucum.300",
+        "ansi.brightGreen": "verde.300",
+        "ansi.brightYellow": "ouro.200",
+        "ansi.brightBlue": "azul.300",
+        "ansi.brightMagenta": "ipe.300",
+        "ansi.brightCyan": "turquesa.300",
+        "ansi.brightWhite": "neutral.50"
+      }
+    }
+  }
+}

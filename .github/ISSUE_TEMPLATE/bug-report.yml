@@ -1,0 +1,28 @@
+name: Color or contrast problem
+description: A wrong color, unreadable text, or a token that looks off
+title: "[color] "
+labels: ["bug"]
+body:
+  - type: input
+    id: app
+    attributes:
+      label: App and version
+      placeholder: "VS Code 1.95, Canindé 0.1.0"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What looks wrong?
+      description: Attach a screenshot. If it is a syntax color, say the language.
+    validations:
+      required: true
+  - type: input
+    id: scope
+    attributes:
+      label: Token scope (VS Code)
+      description: Run "Developer: Inspect Editor Tokens and Scopes" and paste the scope, if you can.
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?

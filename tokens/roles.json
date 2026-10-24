@@ -1,0 +1,103 @@
+{
+  "$comment": "The machine-readable contract. Every variant in semantic.json must define exactly these roles. docs/ROLES.md is generated from this file.",
+  "groups": [
+    {
+      "title": "Surfaces",
+      "roles": {
+        "bg.base": "Main canvas: editor and terminal background",
+        "bg.sunken": "Chrome that sits below the canvas: sidebar, activity bar, title bar, inactive tabs",
+        "bg.raised": "Slightly lifted areas: line highlight, hovered rows, panel headers",
+        "bg.overlay": "Floating UI: menus, dropdowns, suggestion lists, notifications",
+        "bg.hover": "Hover and inactive-selection background",
+        "bg.active": "Pressed or active background"
+      }
+    },
+    {
+      "title": "Borders",
+      "roles": {
+        "border.default": "Visible dividers and input borders",
+        "border.subtle": "Barely-there dividers and indent guides"
+      }
+    },
+    {
+      "title": "Foreground",
+      "roles": {
+        "fg.default": "Primary text",
+        "fg.muted": "Secondary text",
+        "fg.subtle": "Tertiary text: line numbers, placeholders, inactive tabs",
+        "fg.inverse": "Text placed on accent-colored surfaces"
+      }
+    },
+    {
+      "title": "Accents",
+      "roles": {
+        "accent.primary": "The brand color: focus, links, primary buttons, status bar",
+        "accent.primary.hover": "Lighter companion of the primary accent, for hover states",
+        "accent.secondary": "The highlight color: cursor, active markers, badges"
+      }
+    },
+    {
+      "title": "Status",
+      "roles": {
+        "status.error": "Errors, deletions, failures. Nothing else uses this hue",
+        "status.warning": "Warnings and caution",
+        "status.success": "Success and additions",
+        "status.info": "Informational messages"
+      }
+    },
+    {
+      "title": "Syntax",
+      "roles": {
+        "syntax.comment": "Comments (always italic)",
+        "syntax.keyword": "Keywords, storage modifiers, control flow, this/self",
+        "syntax.function": "Function and method names, calls",
+        "syntax.string": "String literals",
+        "syntax.number": "Numeric literals and units",
+        "syntax.constant": "Named constants, booleans, null, enum members",
+        "syntax.type": "Types, classes, interfaces, namespaces",
+        "syntax.variable": "Plain variables",
+        "syntax.parameter": "Function parameters (italic)",
+        "syntax.property": "Object properties and keys: JSON, YAML, CSS properties",
+        "syntax.operator": "Operators and separators",
+        "syntax.punctuation": "Brackets, braces, delimiters",
+        "syntax.tag": "Markup, HTML and JSX tag names",
+        "syntax.attribute": "Tag attributes",
+        "syntax.regexp": "Regular expressions",
+        "syntax.escape": "Escape sequences",
+        "syntax.decorator": "Decorators and annotations",
+        "syntax.invalid": "Invalid or illegal code"
+      }
+    },
+    {
+      "title": "Markup",
+      "roles": {
+        "markup.heading": "Markdown headings (bold)",
+        "markup.bold": "Bold text (bold)",
+        "markup.link": "Links (underlined)",
+        "markup.code": "Inline code and fenced code blocks",
+        "markup.quote": "Block quotes (italic)"
+      }
+    },
+    {
+      "title": "Terminal (ANSI)",
+      "roles": {
+        "ansi.black": "ANSI black, lifted just enough to stay visible on bg.base",
+        "ansi.red": "ANSI red",
+        "ansi.green": "ANSI green",
+        "ansi.yellow": "ANSI yellow",
+        "ansi.blue": "ANSI blue",
+        "ansi.magenta": "ANSI magenta",
+        "ansi.cyan": "ANSI cyan",
+        "ansi.white": "ANSI white",
+        "ansi.brightBlack": "ANSI bright black, used for dimmed text",
+        "ansi.brightRed": "ANSI bright red",
+        "ansi.brightGreen": "ANSI bright green",
+        "ansi.brightYellow": "ANSI bright yellow",
+        "ansi.brightBlue": "ANSI bright blue",
+        "ansi.brightMagenta": "ANSI bright magenta",
+        "ansi.brightCyan": "ANSI bright cyan",
+        "ansi.brightWhite": "ANSI bright white"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Canindé: Extension Development Host",
+      "type": "extensionHost",
+      "request": "launch",
+      "preLaunchTask": "caninde: build",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}/packages/vscode",
+        "${workspaceFolder}/samples"
+      ]
+    }
+  ]
+}

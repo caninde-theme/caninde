@@ -1,0 +1,5 @@
+.vscode/**
+mapping.json
+.vscodeignore
+**/*.map
+*.vsix

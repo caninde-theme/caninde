@@ -1,0 +1,35 @@
+name: New app port
+description: Propose (or volunteer to build) a Canindé port to a new app or editor
+title: "[port] "
+labels: ["good first port"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Please read [docs/PORTING.md](https://github.com/caninde-theme/caninde/blob/main/docs/PORTING.md) first.
+  - type: input
+    id: app
+    attributes:
+      label: App or editor
+      placeholder: "Alacritty, Neovim, Obsidian…"
+    validations:
+      required: true
+  - type: input
+    id: format
+    attributes:
+      label: Theme format
+      description: How does this app define themes? Link to its documentation.
+  - type: dropdown
+    id: who
+    attributes:
+      label: Who will build it?
+      options:
+        - I will open the pull request
+        - I would like someone else to take it
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything the maintainers should know (limitations of the app, missing roles, ideas).

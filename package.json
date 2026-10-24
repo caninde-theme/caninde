@@ -1,0 +1,23 @@
+{
+  "name": "caninde",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Canindé: an open-source color theme system inspired by the blue-and-yellow macaw.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Andre Duarch (https://github.com/duarch)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caninde-theme/caninde.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node build/index.mjs",
+    "check": "node build/check-contrast.mjs",
+    "test": "node --test",
+    "verify": "npm run build && npm run check && npm test",
+    "package:vscode": "npm run build && cd packages/vscode && npx --yes @vscode/vsce package"
+  }
+}
