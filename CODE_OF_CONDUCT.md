@@ -19,7 +19,7 @@ In short:
 
 Project maintainers are responsible for clarifying and enforcing these standards, and may remove, edit, or reject comments, commits, issues and other contributions that do not follow them, and may temporarily or permanently ban anyone for behavior they judge inappropriate or harmful.
 
-To report a problem, contact the maintainers at **[INSERT CONTACT EMAIL]**. All reports are reviewed promptly and kept confidential.
+To report a problem, contact the maintainers at **support@duar.ch**. All reports are reviewed promptly and kept confidential.
 
 ## Attribution
 
