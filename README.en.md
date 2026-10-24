@@ -1,3 +1,6 @@
+![arara](https://github.com/caninde-theme/caninde/blob/main/assets/arara.jpg)
+_Photo by [LeonardoRamos](https://commons.wikimedia.org/wiki/User:LeonardoRamos), licensed under [CC BY-SA 4.0](https://creativecommons.org) via Wikimedia Commons._
+
 # Canindé 🦜
 
 [🇧🇷 Português](README.md) · **🇺🇸 English**
@@ -14,15 +17,17 @@ Canindé starts from those colors and turns them into a **theme system** for edi
 
 ## The palette (the essence)
 
-| Color | Hex | Where it comes from |
-| --- | --- | --- |
-| Azul (blue) | `#1E9BD7` | Back and wings. The brand color |
-| Turquesa (turquoise) | `#2BB5B0` | Where the green crown meets the blue |
-| Verde (green) | `#A3B83A` | Crown |
-| Ouro (gold) | `#F2B01E` | Chest. The highlight color |
-| Laranja (orange) | `#E8892B` | Neck, the warm transition |
-| Urucum (annatto red) | `#E85D52` | Not on the bird: annatto pigment, reserved for errors |
-| Ipê (purple) | `#C77FD8` | Not on the bird: ipê blossoms, a rare accent |
+| Visualização | Color | Hex | Where it comes from |
+| :---: | --- | --- | --- |
+| ![#1E9BD7](https://shields.io) | Azul (blue) | `#1E9BD7` | Back and wings. The brand color |
+| ![#2BB5B0](https://shields.io) | Turquesa (turquoise) | `#2BB5B0` | Where the green crown meets the blue |
+| ![#A3B83A](https://shields.io) | Verde (green) | `#A3B83A` | Crown |
+| ![#F2B01E](https://shields.io) | Ouro (gold) | `#F2B01E` | Chest. The highlight color |
+| ![#E8892B](https://shields.io) | Laranja (orange) | `#E8892B` | Neck, the warm transition |
+| ![#E85D52](https://shields.io) | Urucum (annatto red) | `#E85D52` | Not on the bird: annatto pigment, reserved for errors |
+| ![#C77FD8](https://shields.io) | Ipê (purple) | `#C77FD8` | Not on the bird: ipê blossoms, a rare accent |
+
+
 
 Backgrounds and text come from a "beak-black" neutral with a faint blue tint, defined in `tokens/essence.json`.
 
@@ -81,6 +86,11 @@ To create variants (light, high contrast, color-blind friendly), add an entry to
 ## Contributing
 
 Want to bring Canindé to your favorite app? Start with [`docs/PORTING.md`](docs/PORTING.md) and open an issue with the **New app port** template (label `good first port`). See also [`CONTRIBUTING.md`](CONTRIBUTING.md). Issues and PRs in Portuguese are very welcome too.
+
+
+## Acknowledgments
+
+Some of the code (syntax) examples were taken from the [syntax-highlighting-samples](https://github.com/uloco/syntax-highlighting-samples) repository.
 
 ## Created by
 
