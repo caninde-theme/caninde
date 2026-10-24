@@ -41,9 +41,9 @@
     "editorRuler.foreground": "#1E252D",
     "editorBracketMatch.background": "#1E9BD74D",
     "editorBracketMatch.border": "#1E9BD7",
-    "editorBracketHighlight.foreground1": "#F2B01E",
-    "editorBracketHighlight.foreground2": "#C77FD8",
-    "editorBracketHighlight.foreground3": "#1E9BD7",
+    "editorBracketHighlight.foreground1": "#76C8FACC",
+    "editorBracketHighlight.foreground2": "#C77FD8B3",
+    "editorBracketHighlight.foreground3": "#F2B01E99",
     "editorBracketHighlight.foreground4": "#A3B83A",
     "editorBracketHighlight.foreground5": "#E8892B",
     "editorBracketHighlight.foreground6": "#2BB5B0",
@@ -233,6 +233,24 @@
     "terminal.ansiBrightWhite": "#F4F9FF"
   },
   "tokenColors": [
+    {
+      "name": "At-rule punctuation follows the keyword",
+      "scope": [
+        "punctuation.definition.keyword"
+      ],
+      "settings": {
+        "foreground": "#1E9BD7"
+      }
+    },
+    {
+      "name": "URLs inside url() are not parameters",
+      "scope": [
+        "variable.parameter.url"
+      ],
+      "settings": {
+        "foreground": "#A3B83A"
+      }
+    },
     {
       "name": "Comments",
       "scope": [

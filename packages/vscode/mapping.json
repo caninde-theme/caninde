@@ -16,7 +16,6 @@
     "textBlockQuote.border": "accent.primary",
     "textPreformat.foreground": "syntax.string",
     "textSeparator.foreground": "border.default",
-
     "editor.background": "bg.base",
     "editor.foreground": "fg.default",
     "editor.lineHighlightBackground": "bg.raised@70",
@@ -39,9 +38,9 @@
     "editorRuler.foreground": "border.subtle",
     "editorBracketMatch.background": "accent.primary@30",
     "editorBracketMatch.border": "accent.primary",
-    "editorBracketHighlight.foreground1": "accent.secondary",
-    "editorBracketHighlight.foreground2": "syntax.decorator",
-    "editorBracketHighlight.foreground3": "accent.primary",
+    "editorBracketHighlight.foreground1": "accent.primary.hover@80",
+    "editorBracketHighlight.foreground2": "syntax.decorator@70",
+    "editorBracketHighlight.foreground3": "accent.secondary@60",
     "editorBracketHighlight.foreground4": "syntax.string",
     "editorBracketHighlight.foreground5": "syntax.number",
     "editorBracketHighlight.foreground6": "syntax.type",
@@ -59,7 +58,6 @@
     "problemsErrorIcon.foreground": "status.error",
     "problemsWarningIcon.foreground": "status.warning",
     "problemsInfoIcon.foreground": "status.info",
-
     "editorWidget.background": "bg.overlay",
     "editorWidget.border": "border.default",
     "editorHoverWidget.background": "bg.overlay",
@@ -69,7 +67,6 @@
     "editorSuggestWidget.foreground": "fg.default",
     "editorSuggestWidget.selectedBackground": "accent.primary@30",
     "editorSuggestWidget.highlightForeground": "accent.secondary",
-
     "peekView.border": "accent.primary",
     "peekViewEditor.background": "bg.sunken",
     "peekViewEditor.matchHighlightBackground": "accent.secondary@40",
@@ -77,18 +74,15 @@
     "peekViewResult.selectionBackground": "accent.primary@30",
     "peekViewTitle.background": "bg.raised",
     "peekViewTitleLabel.foreground": "fg.default",
-
     "diffEditor.insertedTextBackground": "status.success@18",
     "diffEditor.removedTextBackground": "status.error@18",
     "diffEditor.insertedLineBackground": "status.success@12",
     "diffEditor.removedLineBackground": "status.error@12",
-
     "titleBar.activeBackground": "bg.sunken",
     "titleBar.activeForeground": "fg.default",
     "titleBar.inactiveBackground": "bg.sunken",
     "titleBar.inactiveForeground": "fg.subtle",
     "titleBar.border": "border.subtle",
-
     "activityBar.background": "bg.sunken",
     "activityBar.foreground": "fg.default",
     "activityBar.inactiveForeground": "fg.subtle",
@@ -96,7 +90,6 @@
     "activityBar.activeBorder": "accent.secondary",
     "activityBarBadge.background": "accent.secondary",
     "activityBarBadge.foreground": "fg.inverse",
-
     "sideBar.background": "bg.sunken",
     "sideBar.foreground": "fg.muted",
     "sideBar.border": "border.subtle",
@@ -104,7 +97,6 @@
     "sideBarSectionHeader.background": "bg.sunken",
     "sideBarSectionHeader.foreground": "fg.default",
     "sideBarSectionHeader.border": "border.subtle",
-
     "list.activeSelectionBackground": "accent.primary@30",
     "list.activeSelectionForeground": "fg.default",
     "list.inactiveSelectionBackground": "bg.hover",
@@ -117,7 +109,6 @@
     "list.warningForeground": "status.warning",
     "list.dropBackground": "accent.primary@25",
     "tree.indentGuidesStroke": "border.default",
-
     "statusBar.background": "accent.primary",
     "statusBar.foreground": "fg.inverse",
     "statusBar.noFolderBackground": "bg.raised",
@@ -129,7 +120,6 @@
     "statusBarItem.remoteForeground": "fg.inverse",
     "statusBarItem.prominentBackground": "fg.inverse@30",
     "statusBarItem.prominentForeground": "fg.inverse",
-
     "tab.activeBackground": "bg.base",
     "tab.activeForeground": "fg.default",
     "tab.activeBorderTop": "accent.secondary",
@@ -142,18 +132,15 @@
     "editorGroupHeader.tabsBackground": "bg.sunken",
     "editorGroup.border": "border.default",
     "editorGroup.dropBackground": "accent.primary@25",
-
     "breadcrumb.foreground": "fg.subtle",
     "breadcrumb.focusForeground": "fg.default",
     "breadcrumb.activeSelectionForeground": "fg.default",
     "breadcrumbPicker.background": "bg.overlay",
-
     "panel.background": "bg.base",
     "panel.border": "border.default",
     "panelTitle.activeForeground": "fg.default",
     "panelTitle.inactiveForeground": "fg.subtle",
     "panelTitle.activeBorder": "accent.secondary",
-
     "input.background": "bg.sunken",
     "input.foreground": "fg.default",
     "input.border": "border.default",
@@ -166,11 +153,9 @@
     "inputValidation.warningBorder": "status.warning",
     "inputValidation.infoBackground": "bg.sunken",
     "inputValidation.infoBorder": "status.info",
-
     "dropdown.background": "bg.overlay",
     "dropdown.foreground": "fg.default",
     "dropdown.border": "border.default",
-
     "button.background": "accent.primary",
     "button.foreground": "fg.inverse",
     "button.hoverBackground": "accent.primary.hover",
@@ -182,33 +167,28 @@
     "extensionButton.prominentHoverBackground": "accent.primary.hover",
     "extensionBadge.remoteBackground": "accent.secondary",
     "extensionBadge.remoteForeground": "fg.inverse",
-
     "badge.background": "accent.secondary",
     "badge.foreground": "fg.inverse",
     "progressBar.background": "accent.secondary",
     "toolbar.hoverBackground": "bg.hover",
     "toolbar.activeBackground": "bg.active",
-
     "scrollbarSlider.background": "fg.subtle@25",
     "scrollbarSlider.hoverBackground": "fg.subtle@40",
     "scrollbarSlider.activeBackground": "fg.subtle@55",
     "minimap.selectionHighlight": "accent.primary",
     "minimap.findMatchHighlight": "accent.secondary",
     "minimapSlider.background": "fg.subtle@15",
-
     "menu.background": "bg.overlay",
     "menu.foreground": "fg.default",
     "menu.selectionBackground": "accent.primary@30",
     "menu.selectionForeground": "fg.default",
     "menu.separatorBackground": "border.default",
-
     "quickInput.background": "bg.overlay",
     "quickInput.foreground": "fg.default",
     "quickInputTitle.background": "bg.raised",
     "quickInputList.focusBackground": "accent.primary@30",
     "pickerGroup.foreground": "accent.secondary",
     "pickerGroup.border": "border.default",
-
     "notifications.background": "bg.overlay",
     "notifications.foreground": "fg.default",
     "notifications.border": "border.default",
@@ -217,7 +197,6 @@
     "notificationsErrorIcon.foreground": "status.error",
     "notificationsWarningIcon.foreground": "status.warning",
     "notificationsInfoIcon.foreground": "status.info",
-
     "gitDecoration.addedResourceForeground": "status.success",
     "gitDecoration.modifiedResourceForeground": "accent.primary",
     "gitDecoration.deletedResourceForeground": "status.error",
@@ -225,12 +204,10 @@
     "gitDecoration.ignoredResourceForeground": "fg.subtle",
     "gitDecoration.conflictingResourceForeground": "status.warning",
     "gitDecoration.stageModifiedResourceForeground": "accent.primary",
-
     "settings.headerForeground": "fg.default",
     "settings.modifiedItemIndicator": "accent.secondary",
     "debugToolBar.background": "bg.overlay",
     "debugIcon.breakpointForeground": "status.error",
-
     "terminal.background": "bg.base",
     "terminal.foreground": "fg.default",
     "terminal.selectionBackground": "accent.primary@35",
@@ -254,19 +231,42 @@
   },
   "tokenColors": [
     {
+      "name": "At-rule punctuation follows the keyword",
+      "scope": [
+        "punctuation.definition.keyword"
+      ],
+      "role": "syntax.keyword"
+    },
+    {
+      "name": "URLs inside url() are not parameters",
+      "scope": [
+        "variable.parameter.url"
+      ],
+      "role": "syntax.string",
+      "fontStyle": ""
+    },
+    {
       "name": "Comments",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "role": "syntax.comment",
       "fontStyle": "italic"
     },
     {
       "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder"],
+      "scope": [
+        "variable",
+        "string constant.other.placeholder"
+      ],
       "role": "syntax.variable"
     },
     {
       "name": "Parameters",
-      "scope": ["variable.parameter"],
+      "scope": [
+        "variable.parameter"
+      ],
       "role": "syntax.parameter",
       "fontStyle": "italic"
     },
@@ -307,7 +307,10 @@
     },
     {
       "name": "this and self",
-      "scope": ["variable.language", "variable.parameter.function.language"],
+      "scope": [
+        "variable.language",
+        "variable.parameter.function.language"
+      ],
       "role": "syntax.keyword",
       "fontStyle": "italic"
     },
@@ -337,22 +340,34 @@
     },
     {
       "name": "Strings",
-      "scope": ["string", "punctuation.definition.string"],
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
       "role": "syntax.string"
     },
     {
       "name": "Regular expressions",
-      "scope": ["string.regexp", "constant.regexp"],
+      "scope": [
+        "string.regexp",
+        "constant.regexp"
+      ],
       "role": "syntax.regexp"
     },
     {
       "name": "Escape sequences",
-      "scope": ["constant.character.escape", "string.regexp constant.character.escape"],
+      "scope": [
+        "constant.character.escape",
+        "string.regexp constant.character.escape"
+      ],
       "role": "syntax.escape"
     },
     {
       "name": "Numbers and units",
-      "scope": ["constant.numeric", "keyword.other.unit"],
+      "scope": [
+        "constant.numeric",
+        "keyword.other.unit"
+      ],
       "role": "syntax.number"
     },
     {
@@ -368,17 +383,23 @@
     },
     {
       "name": "Tags",
-      "scope": ["entity.name.tag"],
+      "scope": [
+        "entity.name.tag"
+      ],
       "role": "syntax.tag"
     },
     {
       "name": "Tag punctuation",
-      "scope": ["punctuation.definition.tag"],
+      "scope": [
+        "punctuation.definition.tag"
+      ],
       "role": "syntax.punctuation"
     },
     {
       "name": "Attributes",
-      "scope": ["entity.other.attribute-name"],
+      "scope": [
+        "entity.other.attribute-name"
+      ],
       "role": "syntax.attribute"
     },
     {
@@ -395,12 +416,19 @@
     },
     {
       "name": "Punctuation",
-      "scope": ["punctuation", "meta.brace", "meta.delimiter"],
+      "scope": [
+        "punctuation",
+        "meta.brace",
+        "meta.delimiter"
+      ],
       "role": "syntax.punctuation"
     },
     {
       "name": "Invalid",
-      "scope": ["invalid", "invalid.illegal"],
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
       "role": "syntax.invalid"
     },
     {
@@ -416,30 +444,47 @@
     },
     {
       "name": "Markup: bold",
-      "scope": ["markup.bold", "punctuation.definition.bold"],
+      "scope": [
+        "markup.bold",
+        "punctuation.definition.bold"
+      ],
       "role": "markup.bold",
       "fontStyle": "bold"
     },
     {
       "name": "Markup: italic",
-      "scope": ["markup.italic", "punctuation.definition.italic"],
+      "scope": [
+        "markup.italic",
+        "punctuation.definition.italic"
+      ],
       "role": "fg.default",
       "fontStyle": "italic"
     },
     {
       "name": "Markup: links",
-      "scope": ["markup.underline.link", "markup.underline.link.image", "string.other.link"],
+      "scope": [
+        "markup.underline.link",
+        "markup.underline.link.image",
+        "string.other.link"
+      ],
       "role": "markup.link",
       "fontStyle": "underline"
     },
     {
       "name": "Markup: code",
-      "scope": ["markup.inline.raw", "markup.raw", "markup.fenced_code"],
+      "scope": [
+        "markup.inline.raw",
+        "markup.raw",
+        "markup.fenced_code"
+      ],
       "role": "markup.code"
     },
     {
       "name": "Markup: quotes",
-      "scope": ["markup.quote", "punctuation.definition.quote"],
+      "scope": [
+        "markup.quote",
+        "punctuation.definition.quote"
+      ],
       "role": "markup.quote",
       "fontStyle": "italic"
     },
@@ -453,38 +498,81 @@
     },
     {
       "name": "Diff: inserted",
-      "scope": ["markup.inserted"],
+      "scope": [
+        "markup.inserted"
+      ],
       "role": "status.success"
     },
     {
       "name": "Diff: deleted",
-      "scope": ["markup.deleted"],
+      "scope": [
+        "markup.deleted"
+      ],
       "role": "status.error"
     },
     {
       "name": "Diff: changed",
-      "scope": ["markup.changed"],
+      "scope": [
+        "markup.changed"
+      ],
       "role": "accent.primary"
     }
   ],
   "semanticTokenColors": {
-    "namespace": { "role": "syntax.type" },
-    "class": { "role": "syntax.type" },
-    "interface": { "role": "syntax.type" },
-    "enum": { "role": "syntax.type" },
-    "struct": { "role": "syntax.type" },
-    "typeParameter": { "role": "syntax.type" },
-    "type": { "role": "syntax.type" },
-    "function": { "role": "syntax.function" },
-    "method": { "role": "syntax.function" },
-    "macro": { "role": "syntax.function" },
-    "property": { "role": "syntax.property" },
-    "enumMember": { "role": "syntax.constant" },
-    "variable.readonly": { "role": "syntax.constant" },
-    "parameter": { "role": "syntax.parameter", "fontStyle": "italic" },
-    "decorator": { "role": "syntax.decorator" },
-    "number": { "role": "syntax.number" },
-    "regexp": { "role": "syntax.regexp" },
-    "*.deprecated": { "fontStyle": "strikethrough" }
+    "namespace": {
+      "role": "syntax.type"
+    },
+    "class": {
+      "role": "syntax.type"
+    },
+    "interface": {
+      "role": "syntax.type"
+    },
+    "enum": {
+      "role": "syntax.type"
+    },
+    "struct": {
+      "role": "syntax.type"
+    },
+    "typeParameter": {
+      "role": "syntax.type"
+    },
+    "type": {
+      "role": "syntax.type"
+    },
+    "function": {
+      "role": "syntax.function"
+    },
+    "method": {
+      "role": "syntax.function"
+    },
+    "macro": {
+      "role": "syntax.function"
+    },
+    "property": {
+      "role": "syntax.property"
+    },
+    "enumMember": {
+      "role": "syntax.constant"
+    },
+    "variable.readonly": {
+      "role": "syntax.constant"
+    },
+    "parameter": {
+      "role": "syntax.parameter",
+      "fontStyle": "italic"
+    },
+    "decorator": {
+      "role": "syntax.decorator"
+    },
+    "number": {
+      "role": "syntax.number"
+    },
+    "regexp": {
+      "role": "syntax.regexp"
+    },
+    "*.deprecated": {
+      "fontStyle": "strikethrough"
+    }
   }
 }
