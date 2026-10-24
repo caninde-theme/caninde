@@ -1,5 +1,5 @@
 ![arara](https://github.com/caninde-theme/caninde/blob/main/assets/arara.jpg)
-_Foto por [LeonardoRamos](https://wikimedia.org), licenciada sob [CC BY-SA 4.0](https://creativecommons.org) via Wikimedia Commons._
+_Foto por [LeonardoRamos](https://commons.wikimedia.org/wiki/User:LeonardoRamos), licenciada sob [CC BY-SA 4.0](https://creativecommons.org) via Wikimedia Commons._
 
 
 # Canindé 🦜
