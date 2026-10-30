@@ -1,0 +1,5 @@
+"args": [
+    "--extensionDevelopmentPath=${workspaceFolder}/packages/vscode",
+    "--profile-temp",
+    "${workspaceFolder}/samples"
+]

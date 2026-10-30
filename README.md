@@ -1,99 +1,100 @@
 ![arara](https://github.com/caninde-theme/caninde/blob/main/assets/arara.jpg)
-_Foto por [LeonardoRamos](https://commons.wikimedia.org/wiki/User:LeonardoRamos), licenciada sob [CC BY-SA 4.0](https://creativecommons.org) via Wikimedia Commons._
-
+_Photo by [LeonardoRamos](https://commons.wikimedia.org/wiki/User:LeonardoRamos), licensed under [CC BY-SA 4.0](https://creativecommons.org) via Wikimedia Commons._
 
 # Canindé 🦜
 
-**🇧🇷 Português** · [🇺🇸 English](README.en.md)
+[🇧🇷 Português](README.md) · **🇺🇸 English**
 
-> Um tema de cores open source inspirado na **Arara-Canindé**: azul no dorso, ouro no peito e um preto-bico profundo para o código respirar.
+> An open-source color theme inspired by the **Arara-Canindé** (blue-and-yellow macaw): blue on the back, gold on the chest, and a deep beak-black canvas for your code to breathe.
 
-> **Status:** v0.1, em desenvolvimento. Ainda não publicado no Marketplace.
+> **Status:** v0.1, work in progress. Not yet published to the Marketplace.
 
-## A história
+## The story
 
-A Arara-Canindé (*Ara ararauna*) é uma das aves mais reconhecíveis do Brasil: dorso e asas num azul vibrante, peito dourado, uma máscara branca riscada de preto, um toque de verde na coroa e um bico preto, grande e curvo.
+The Arara-Canindé (*Ara ararauna*) is one of Brazil's most recognizable birds: vivid blue back and wings, a golden chest, a white face patch lined with black, a touch of green on the crown, and a large, curved black beak.
 
-Canindé parte dessas cores e as transforma em um **sistema de tema** para editores e terminais: escuro, saturado na medida certa e com contraste acessível. O VS Code é o primeiro destino. A ideia é que a comunidade leve a mesma identidade para outros apps.
+Canindé starts from those colors and turns them into a **theme system** for editors and terminals: dark, saturated just enough, and accessible by contrast. VS Code is the first target. The goal is for the community to carry the same identity to other apps.
 
-## A paleta (a essência)
+## The palette (the essence)
 
-| Visualização | Cor | Hex | De onde vem |
+| Sample | Color | Hex | Where it comes from |
 | :---: | --- | --- | --- |
-| ![](https://img.shields.io/badge/-%231E9BD7-1E9BD7?style=flat-square) | Azul | `#1E9BD7` | Dorso e asas. A cor da marca |
-| ![](https://img.shields.io/badge/-%232BB5B0-2BB5B0?style=flat-square) | Turquesa | `#2BB5B0` | Onde a coroa verde encontra o azul |
-| ![](https://img.shields.io/badge/-%23A3B83A-A3B83A?style=flat-square) | Verde | `#A3B83A` | Coroa |
-| ![](https://img.shields.io/badge/-%23F2B01E-F2B01E?style=flat-square) | Ouro | `#F2B01E` | Peito. A cor de destaque |
-| ![](https://img.shields.io/badge/-%23E8892B-E8892B?style=flat-square) | Laranja | `#E8892B` | Pescoço, a transição quente |
-| ![](https://img.shields.io/badge/-%23E85D52-E85D52?style=flat-square) | Urucum | `#E85D52` | Fora da ave: o pigmento do urucum, reservado para erros |
-| ![](https://img.shields.io/badge/-%23C77FD8-C77FD8?style=flat-square) | Ipê | `#C77FD8` | Fora da ave: flores de ipê, um acento raro |
+| ![](https://img.shields.io/badge/-%231E9BD7-1E9BD7?style=flat-square) | Blue | `#1E9BD7` | Back and wings. The brand color |
+| ![](https://img.shields.io/badge/-%232BB5B0-2BB5B0?style=flat-square) | Turquoise | `#2BB5B0` | Where the green crown meets the blue |
+| ![](https://img.shields.io/badge/-%23A3B83A-A3B83A?style=flat-square) | Green | `#A3B83A` | Crown |
+| ![](https://img.shields.io/badge/-%23F2B01E-F2B01E?style=flat-square) | Gold | `#F2B01E` | Chest. The highlight color |
+| ![](https://img.shields.io/badge/-%23E8892B-E8892B?style=flat-square) | Orange | `#E8892B` | Neck, the warm transition |
+| ![](https://img.shields.io/badge/-%23E85D52-E85D52?style=flat-square) | Annatto red | `#E85D52` | Not on the bird: annatto pigment, reserved for errors |
+| ![](https://img.shields.io/badge/-%23C77FD8-C77FD8?style=flat-square) | Purple | `#C77FD8` | Not on the bird: ipê blossoms, a rare accent |
 
-Fundo e texto vêm de um neutro "preto-bico" com um leve tom azulado, em `tokens/essence.json`.
 
-## Como funciona
+Backgrounds and text come from a "beak-black" neutral with a faint blue tint, defined in `tokens/essence.json`.
 
-A essência vive em um único lugar. Cada app é só um gerador que lê esses tokens:
+## How it works
+
+The essence lives in one place. Every app is just a generator that reads those tokens:
 
 ```
-tokens/essence.json      cores-semente e parâmetros (você edita)
+tokens/essence.json      seed colors and parameters (you edit)
         │
         ▼
-tokens/palette.json      escalas geradas em OKLCH (gerado)
+tokens/palette.json      scales generated in OKLCH (generated)
         │
-tokens/semantic.json     papéis: bg.base, syntax.keyword, ansi.red… (você edita)
+tokens/semantic.json     roles: bg.base, syntax.keyword, ansi.red… (you edit)
         │
         ▼
-packages/<app>/          mapeamento de papéis para o app + gerador
+packages/<app>/          role-to-app mapping + generator
 ```
 
-- **Tokens, não cores soltas:** nenhum mapeamento de app usa hex direto, só papéis. Troque uma cor-semente e tudo se regenera.
-- **Contraste verificado:** `npm run check` garante WCAG AA (7:1 para o texto padrão) em cada build.
-- **Contrato claro:** [`docs/SPEC.md`](docs/SPEC.md) e [`docs/ROLES.md`](docs/ROLES.md) dizem qual cor vai em qual papel, e qualquer pessoa consegue portar para outro app mantendo a identidade.
+- **Tokens, not loose colors:** no app mapping uses raw hex, only roles. Change a seed color and everything regenerates.
+- **Verified contrast:** `npm run check` enforces WCAG AA (7:1 for default text) on every build.
+- **A clear contract:** [`docs/SPEC.md`](docs/SPEC.md) and [`docs/ROLES.md`](docs/ROLES.md) say which color goes to which role, so anyone can port it to another app and keep the identity.
 
-## Começando (desenvolvimento)
+## Getting started (development)
 
-Requisitos: **Node.js 18+**. Não há dependências para instalar.
+Requirements: **Node.js 18+**. There are no dependencies to install.
 
 ```bash
 git clone https://github.com/caninde-theme/caninde.git
 cd caninde
-npm run verify     # build + contraste + testes
+npm run verify     # build + contrast + tests
 ```
 
-Para ver o tema no VS Code, abra a pasta do projeto e pressione **F5**. Uma janela *Extension Development Host* abre com a pasta `samples/` (TypeScript, Python, HTML, Markdown e JSON) para você avaliar o tema. Use **Developer: Inspect Editor Tokens and Scopes** para descobrir qual escopo colorir.
+To see the theme in VS Code, open the project folder and press **F5**. An *Extension Development Host* window opens on the `samples/` folder (TypeScript, Python, HTML, Markdown and JSON) so you can judge the theme. Use **Developer: Inspect Editor Tokens and Scopes** to find which scope to color.
 
-## Parametrize a essência
+## Tweak the essence
 
-Edite `tokens/essence.json`, rode `npm run build` e veja o resultado:
+Edit `tokens/essence.json`, run `npm run build`, and see the result:
 
-- **`seeds`**: cada cor-semente (troque o hex e a escala inteira é recalculada).
-- **`neutral`**: matiz e croma do fundo e do texto.
-- **`params.chromaScale`**: saturação global (`0.8` deixa tudo mais suave).
-- **`ramp`**: a luminosidade de cada degrau das escalas.
+- **`seeds`**: each seed color (change the hex and its whole scale is recomputed).
+- **`neutral`**: hue and chroma of backgrounds and text.
+- **`params.chromaScale`**: global saturation (`0.8` softens everything).
+- **`ramp`**: the lightness of each scale step.
 
-Para criar variantes (claro, alto contraste, daltônicos), adicione uma entrada em `tokens/semantic.json`. Veja [`docs/SPEC.md`](docs/SPEC.md).
+To create variants (light, high contrast, color-blind friendly), add an entry to `tokens/semantic.json`. See [`docs/SPEC.md`](docs/SPEC.md).
 
 ## Apps
 
 | App | Status |
 | --- | --- |
-| VS Code | ✅ v0.1 (escuro) |
-| Terminais (Alacritty, Windows Terminal, iTerm2, Kitty, WezTerm) | 💡 procuramos contribuições |
-| Vim / Neovim | 💡 procuramos contribuições |
-| JetBrains, Obsidian, GitHub, Slack… | 💡 procuramos contribuições |
+| VS Code | ✅ v0.1 (dark) |
+| Terminals (Alacritty, Windows Terminal, iTerm2, Kitty, WezTerm) | 💡 contributions wanted |
+| Vim / Neovim | 💡 contributions wanted |
+| JetBrains, Obsidian, GitHub, Slack… | 💡 contributions wanted |
 
-## Contribua
+## Contributing
 
-Quer levar o Canindé para o seu app favorito? Comece pelo [`docs/PORTING.md`](docs/PORTING.md) e abra uma issue com o modelo **New app port** (etiqueta `good first port`). Veja também o [`CONTRIBUTING.md`](CONTRIBUTING.md). Issues e PRs em português são muito bem-vindos.
+Want to bring Canindé to your favorite app? Start with [`docs/PORTING.md`](docs/PORTING.md) and open an issue with the **New app port** template (label `good first port`). See also [`CONTRIBUTING.md`](CONTRIBUTING.md). Issues and PRs in Portuguese are very welcome too.
 
-## Agradecimentos
 
-Parte dos exemplos de códigos(sintaxe) foram tirados do repositório [syntax-highlighting-samples](https://github.com/uloco/syntax-highlighting-samples)
+## Acknowledgments
 
-## Criado por
+Some of the code (syntax) examples were taken from the [syntax-highlighting-samples](https://github.com/uloco/syntax-highlighting-samples) repository.
 
-**Andre Duarch** ([@duarch](https://github.com/duarch)), criador e mantenedor, e [todas as pessoas que contribuem](https://github.com/caninde-theme/caninde/graphs/contributors).
+## Created by
 
-## Licença
+**Andre Duarch** ([@duarch](https://github.com/duarch)), creator and maintainer, and [everyone who contributes](https://github.com/caninde-theme/caninde/graphs/contributors).
+
+## License
 
 [MIT](LICENSE)

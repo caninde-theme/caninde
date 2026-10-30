@@ -248,7 +248,8 @@
         "variable.parameter.url"
       ],
       "settings": {
-        "foreground": "#A3B83A"
+        "foreground": "#A3B83A",
+        "fontStyle": ""
       }
     },
     {

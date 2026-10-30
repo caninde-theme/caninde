@@ -1,0 +1,10 @@
+diff --git a/tokens/essence.json b/tokens/essence.json
+index 3f2a1b4..9c8d7e6 100644
+--- a/tokens/essence.json
++++ b/tokens/essence.json
+@@ -12,7 +12,7 @@
+     "ouro": {
+-      "hex": "#F2B01E",
++      "hex": "#F4B522",
+       "from": "ave"
+     },

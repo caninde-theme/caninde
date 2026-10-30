@@ -14,7 +14,7 @@ export async function build({ root, variantId, variant }) {
 
   const settings = ({ role, fontStyle }) => ({
     ...(role ? { foreground: colorFor(role, roles) } : {}),
-    ...(fontStyle ? { fontStyle } : {}),
+    ...(fontStyle !== undefined ? { fontStyle } : {}),
   });
 
   const theme = {
