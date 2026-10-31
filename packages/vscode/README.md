@@ -3,6 +3,10 @@
 A dark theme inspired by the **Arara-Canindé** (*Ara ararauna*), the blue-and-yellow macaw: blue on the back, gold on the chest, a deep beak-black canvas.
 Um tema escuro inspirado na **Arara-Canindé**: azul no dorso, ouro no peito e um fundo preto-bico profundo.
 
+[python]
+[html]
+[go]
+
 ## Install / Instalação
 
 1. Open the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`).

@@ -4,7 +4,6 @@ from dataclasses import dataclass
 
 MAX_FLOCK = 12
 
-
 @dataclass
 class Macaw:
     name: str
