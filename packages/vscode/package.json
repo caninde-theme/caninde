@@ -9,6 +9,11 @@
     "name": "Andre Duarch",
     "url": "https://github.com/duarch"
   },
+  "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#11161E",
+    "theme": "dark"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/caninde-theme/caninde.git",
@@ -21,8 +26,19 @@
   "engines": {
     "vscode": "^1.80.0"
   },
-  "categories": ["Themes"],
-  "keywords": ["theme", "dark", "color-theme", "caninde", "canindé", "macaw", "arara", "brasil"],
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "color-theme",
+    "caninde",
+    "canindé",
+    "macaw",
+    "arara",
+    "brasil"
+  ],
   "contributes": {
     "themes": [
       {

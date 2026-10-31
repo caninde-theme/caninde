@@ -4,7 +4,7 @@ _Foto por [LeonardoRamos](https://commons.wikimedia.org/wiki/User:LeonardoRamos)
 
 # Canindé 🦜
 
-**🇧🇷 Português** · [🇺🇸 English](README.en.md)
+**🇧🇷 Português** · [🇺🇸 English](README.md)
 
 > Um tema de cores open source inspirado na **Arara-Canindé**: azul no dorso, ouro no peito e um preto-bico profundo para o código respirar.
 

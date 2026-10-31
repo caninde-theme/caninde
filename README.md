@@ -3,7 +3,7 @@ _Photo by [LeonardoRamos](https://commons.wikimedia.org/wiki/User:LeonardoRamos)
 
 # Canindé 🦜
 
-[🇧🇷 Português](README.md) · **🇺🇸 English**
+[🇧🇷 Português](README.pt-br.md) · **🇺🇸 English**
 
 > An open-source color theme inspired by the **Arara-Canindé** (blue-and-yellow macaw): blue on the back, gold on the chest, and a deep beak-black canvas for your code to breathe.
 
@@ -89,7 +89,7 @@ Want to bring Canindé to your favorite app? Start with [`docs/PORTING.md`](docs
 
 ## Acknowledgments
 
-Some of the code (syntax) examples were taken from the [syntax-highlighting-samples](https://github.com/uloco/syntax-highlighting-samples) repository.
+---
 
 ## Created by
 
