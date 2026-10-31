@@ -19,13 +19,13 @@ Canindé starts from those colors and turns them into a **theme system** for edi
 
 | Sample | Color | Hex | Where it comes from |
 | :---: | --- | --- | --- |
-| ![](https://img.shields.io/badge/-%231E9BD7-1E9BD7?style=flat-square) | Blue | `#1E9BD7` | Back and wings. The brand color |
-| ![](https://img.shields.io/badge/-%232BB5B0-2BB5B0?style=flat-square) | Turquoise | `#2BB5B0` | Where the green crown meets the blue |
-| ![](https://img.shields.io/badge/-%23A3B83A-A3B83A?style=flat-square) | Green | `#A3B83A` | Crown |
-| ![](https://img.shields.io/badge/-%23F2B01E-F2B01E?style=flat-square) | Gold | `#F2B01E` | Chest. The highlight color |
-| ![](https://img.shields.io/badge/-%23E8892B-E8892B?style=flat-square) | Orange | `#E8892B` | Neck, the warm transition |
-| ![](https://img.shields.io/badge/-%23E85D52-E85D52?style=flat-square) | Annatto red | `#E85D52` | Not on the bird: annatto pigment, reserved for errors |
-| ![](https://img.shields.io/badge/-%23C77FD8-C77FD8?style=flat-square) | Purple | `#C77FD8` | Not on the bird: ipê blossoms, a rare accent |
+| ![](https://img.shields.io/badge/-%23039EF0-039EF0?style=flat-square) | **Blue** Bell | `#1E9BD7` | Back and wings. The brand color |
+| ![](https://img.shields.io/badge/-%237CCB04-7CCB04?style=flat-square) | Yellow **Green** | `#2BB5B0` | Where the green crown meets the blue |
+| ![](https://img.shields.io/badge/-%2369B1CD-69B1CD?style=flat-square) | **Sky** Reflection | `#A3B83A` | Wings parts |
+| ![](https://img.shields.io/badge/-%23DFAB07-DFAB07?style=flat-square) | **Gold**enrod | `#F2B01E` | Chest. The highlight color |
+| ![](https://img.shields.io/badge/-%23EE7B00-EE7B00?style=flat-square) | Tiger **Orange** | `#E8892B` | Head of Arara-vermelha (Ara chloropterus). |
+| ![](https://img.shields.io/badge/-%23D41015-D41015?style=flat-square) | Flag **Red** | `#E85D52` | Comes from a variation of the Arara-Canindé, the Arara-vermelha (Ara chloropterus). |
+| ![](https://img.shields.io/badge/-%23DFCF00-DFCF00?style=flat-square) | Golden **Glow** | `#C77FD8` | Wing parts |
 
 
 Backgrounds and text come from a "beak-black" neutral with a faint blue tint, defined in `tokens/essence.json`.

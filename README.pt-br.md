@@ -18,15 +18,15 @@ Canindé parte dessas cores e as transforma em um **sistema de tema** para edito
 
 ## A paleta (a essência)
 
-| Visualização | Cor | Hex | De onde vem |
+| Amostra | Cor | Hex | De onde vem |
 | :---: | --- | --- | --- |
-| ![](https://img.shields.io/badge/-%231E9BD7-1E9BD7?style=flat-square) | Azul | `#1E9BD7` | Dorso e asas. A cor da marca |
-| ![](https://img.shields.io/badge/-%232BB5B0-2BB5B0?style=flat-square) | Turquesa | `#2BB5B0` | Onde a coroa verde encontra o azul |
-| ![](https://img.shields.io/badge/-%23A3B83A-A3B83A?style=flat-square) | Verde | `#A3B83A` | Coroa |
-| ![](https://img.shields.io/badge/-%23F2B01E-F2B01E?style=flat-square) | Ouro | `#F2B01E` | Peito. A cor de destaque |
-| ![](https://img.shields.io/badge/-%23E8892B-E8892B?style=flat-square) | Laranja | `#E8892B` | Pescoço, a transição quente |
-| ![](https://img.shields.io/badge/-%23E85D52-E85D52?style=flat-square) | Urucum | `#E85D52` | Fora da ave: o pigmento do urucum, reservado para erros |
-| ![](https://img.shields.io/badge/-%23C77FD8-C77FD8?style=flat-square) | Ipê | `#C77FD8` | Fora da ave: flores de ipê, um acento raro |
+| ![](https://img.shields.io/badge/-%23039EF0-039EF0?style=flat-square) | **Blue** Bell | `#1E9BD7` | Costas e asas. A cor da marca |
+| ![](https://img.shields.io/badge/-%237CCB04-7CCB04?style=flat-square) | Yellow **Green** | `#2BB5B0` | Onde a coroa verde encontra o azul |
+| ![](https://img.shields.io/badge/-%2369B1CD-69B1CD?style=flat-square) | **Sky** Reflection | `#A3B83A` | Partes das asas |
+| ![](https://img.shields.io/badge/-%23DFAB07-DFAB07?style=flat-square) | **Gold**enrod | `#F2B01E` | Peito. A cor de destaque |
+| ![](https://img.shields.io/badge/-%23EE7B00-EE7B00?style=flat-square) | Tiger **Orange** | `#E8892B` | Cabeça da Arara-vermelha (Ara chloropterus). |
+| ![](https://img.shields.io/badge/-%23D41015-D41015?style=flat-square) | Flag **Red** | `#E85D52` | Vem de uma variação da Arara-Canindé, a Arara-vermelha (Ara chloropterus). |
+| ![](https://img.shields.io/badge/-%23DFCF00-DFCF00?style=flat-square) | Golden **Glow** | `#C77FD8` | Partes das asas |
 
 Fundo e texto vêm de um neutro "preto-bico" com um leve tom azulado, em `tokens/essence.json`.
 
