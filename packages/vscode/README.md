@@ -3,9 +3,9 @@
 A dark theme inspired by the **Arara-Canindé** (*Ara ararauna*), the blue-and-yellow macaw: blue on the back, gold on the chest, a deep beak-black canvas.
 Um tema escuro inspirado na **Arara-Canindé**: azul no dorso, ouro no peito e um fundo preto-bico profundo.
 
-[python]
-[html]
-[go]
+![go](https://github.com/caninde-theme/caninde/blob/main/packages/vscode/images/go_preview.png?raw=true)
+![html](https://github.com/caninde-theme/caninde/blob/main/packages/vscode/images/html_preview.png?raw=true)
+![python](https://github.com/caninde-theme/caninde/blob/main/packages/vscode/images/python_preview.png?raw=true)
 
 ## Install / Instalação
 
