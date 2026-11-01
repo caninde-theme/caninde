@@ -36,50 +36,50 @@ it never invents colors of its own. See [SPEC.md](SPEC.md) for the rules of use.
 
 | Role | Meaning | Canindé |
 | --- | --- | --- |
-| `accent.primary` | The brand color: focus, links, primary buttons, status bar | `#1E9BD7` |
-| `accent.primary.hover` | Lighter companion of the primary accent, for hover states | `#76C8FA` |
-| `accent.secondary` | The highlight color: cursor, active markers, badges | `#F2B01E` |
+| `accent.primary` | The brand color: focus, links, primary buttons, status bar | `#039EF0` |
+| `accent.primary.hover` | Lighter companion of the primary accent, for hover states | `#7CC6FF` |
+| `accent.secondary` | The highlight color: cursor, active markers, badges | `#DFAB07` |
 
 ## Status
 
 | Role | Meaning | Canindé |
 | --- | --- | --- |
-| `status.error` | Errors, deletions, failures. Nothing else uses this hue | `#E85D52` |
-| `status.warning` | Warnings and caution | `#E8892B` |
-| `status.success` | Success and additions | `#A3B83A` |
-| `status.info` | Informational messages | `#2BB5B0` |
+| `status.error` | Errors, deletions, failures. Nothing else uses this hue | `#EA5044` |
+| `status.warning` | Warnings and caution | `#EE7B00` |
+| `status.success` | Success and additions | `#69B1CD` |
+| `status.info` | Informational messages | `#7CCB04` |
 
 ## Syntax
 
 | Role | Meaning | Canindé |
 | --- | --- | --- |
 | `syntax.comment` | Comments (always italic) | `#7F8791` |
-| `syntax.keyword` | Keywords, storage modifiers, control flow, this/self | `#1E9BD7` |
-| `syntax.function` | Function and method names, calls | `#F2B01E` |
-| `syntax.string` | String literals | `#A3B83A` |
-| `syntax.number` | Numeric literals and units | `#E8892B` |
-| `syntax.constant` | Named constants, booleans, null, enum members | `#E8892B` |
-| `syntax.type` | Types, classes, interfaces, namespaces | `#2BB5B0` |
+| `syntax.keyword` | Keywords, storage modifiers, control flow, this/self | `#039EF0` |
+| `syntax.function` | Function and method names, calls | `#DFAB07` |
+| `syntax.string` | String literals | `#69B1CD` |
+| `syntax.number` | Numeric literals and units | `#EE7B00` |
+| `syntax.constant` | Named constants, booleans, null, enum members | `#EE7B00` |
+| `syntax.type` | Types, classes, interfaces, namespaces | `#7CCB04` |
 | `syntax.variable` | Plain variables | `#E7EFFB` |
-| `syntax.parameter` | Function parameters (italic) | `#FDA75D` |
-| `syntax.property` | Object properties and keys: JSON, YAML, CSS properties | `#76C8FA` |
+| `syntax.parameter` | Function parameters (italic) | `#FFA566` |
+| `syntax.property` | Object properties and keys: JSON, YAML, CSS properties | `#7CC6FF` |
 | `syntax.operator` | Operators and separators | `#9DA5B0` |
 | `syntax.punctuation` | Brackets, braces, delimiters | `#9DA5B0` |
-| `syntax.tag` | Markup, HTML and JSX tag names | `#1E9BD7` |
-| `syntax.attribute` | Tag attributes | `#D2991E` |
-| `syntax.regexp` | Regular expressions | `#E2A2F1` |
-| `syntax.escape` | Escape sequences | `#C77FD8` |
-| `syntax.decorator` | Decorators and annotations | `#C77FD8` |
-| `syntax.invalid` | Invalid or illegal code | `#E85D52` |
+| `syntax.tag` | Markup, HTML and JSX tag names | `#039EF0` |
+| `syntax.attribute` | Tag attributes | `#CC9D0A` |
+| `syntax.regexp` | Regular expressions | `#D0C20B` |
+| `syntax.escape` | Escape sequences | `#DFCF00` |
+| `syntax.decorator` | Decorators and annotations | `#DFCF00` |
+| `syntax.invalid` | Invalid or illegal code | `#EA5044` |
 
 ## Markup
 
 | Role | Meaning | Canindé |
 | --- | --- | --- |
-| `markup.heading` | Markdown headings (bold) | `#F2B01E` |
-| `markup.bold` | Bold text (bold) | `#E8892B` |
-| `markup.link` | Links (underlined) | `#76C8FA` |
-| `markup.code` | Inline code and fenced code blocks | `#A3B83A` |
+| `markup.heading` | Markdown headings (bold) | `#DFAB07` |
+| `markup.bold` | Bold text (bold) | `#EE7B00` |
+| `markup.link` | Links (underlined) | `#7CC6FF` |
+| `markup.code` | Inline code and fenced code blocks | `#69B1CD` |
 | `markup.quote` | Block quotes (italic) | `#9DA5B0` |
 
 ## Terminal (ANSI)
@@ -87,18 +87,18 @@ it never invents colors of its own. See [SPEC.md](SPEC.md) for the rules of use.
 | Role | Meaning | Canindé |
 | --- | --- | --- |
 | `ansi.black` | ANSI black, lifted just enough to stay visible on bg.base | `#2D333C` |
-| `ansi.red` | ANSI red | `#E85D52` |
-| `ansi.green` | ANSI green | `#A3B83A` |
-| `ansi.yellow` | ANSI yellow | `#F2B01E` |
-| `ansi.blue` | ANSI blue | `#1E9BD7` |
-| `ansi.magenta` | ANSI magenta | `#C77FD8` |
-| `ansi.cyan` | ANSI cyan | `#2BB5B0` |
+| `ansi.red` | ANSI red | `#EA5044` |
+| `ansi.green` | ANSI green | `#69B1CD` |
+| `ansi.yellow` | ANSI yellow | `#DFAB07` |
+| `ansi.blue` | ANSI blue | `#039EF0` |
+| `ansi.magenta` | ANSI magenta | `#DFCF00` |
+| `ansi.cyan` | ANSI cyan | `#7CCB04` |
 | `ansi.white` | ANSI white | `#BDC5D0` |
 | `ansi.brightBlack` | ANSI bright black, used for dimmed text | `#7F8791` |
-| `ansi.brightRed` | ANSI bright red | `#FFA195` |
-| `ansi.brightGreen` | ANSI bright green | `#B5CA5C` |
-| `ansi.brightYellow` | ANSI bright yellow | `#FFCB6F` |
-| `ansi.brightBlue` | ANSI bright blue | `#76C8FA` |
-| `ansi.brightMagenta` | ANSI bright magenta | `#E2A2F1` |
-| `ansi.brightCyan` | ANSI bright cyan | `#6BD2CD` |
+| `ansi.brightRed` | ANSI bright red | `#FFA194` |
+| `ansi.brightGreen` | ANSI bright green | `#89C8E2` |
+| `ansi.brightYellow` | ANSI bright yellow | `#FBCE64` |
+| `ansi.brightBlue` | ANSI bright blue | `#7CC6FF` |
+| `ansi.brightMagenta` | ANSI bright magenta | `#D0C20B` |
+| `ansi.brightCyan` | ANSI bright cyan | `#8BD739` |
 | `ansi.brightWhite` | ANSI bright white | `#F4F9FF` |

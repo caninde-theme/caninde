@@ -7,7 +7,7 @@ body:
     id: app
     attributes:
       label: App and version
-      placeholder: "VS Code 1.95, Canindé 0.1.0"
+      placeholder: "VS Code 1.95, Canindé 0.2.0"
     validations:
       required: true
   - type: textarea

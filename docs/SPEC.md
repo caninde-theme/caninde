@@ -1,4 +1,4 @@
-# Canindé specification (v0.1)
+# Canindé specification (v2.0)
 
 This is the contract for anyone porting Canindé. The goal: any app that follows it should *feel* like Canindé, even though each app exposes very different knobs.
 
@@ -30,13 +30,13 @@ These rules are what make a port recognizably Canindé.
 
 | Hue | Used for | Never used for |
 | --- | --- | --- |
-| **Azul** | Keywords, tags, focus, links, primary buttons, the status bar | Errors |
-| **Ouro** | Functions, cursor, active markers, badges, bright highlights | Large surfaces, errors |
-| **Verde** | Strings, success, additions | Warnings |
-| **Laranja** | Numbers, constants, parameters, warnings | Errors |
-| **Turquesa** | Types, info messages, ANSI cyan | Errors |
-| **Urucum** | Errors, deletions, invalid code | Anything else |
-| **Ipê** | Decorators, escapes, regular expressions, ANSI magenta | Common tokens |
+| **Blue** | Keywords, tags, focus, links, primary buttons, the status bar | Errors |
+| **Gold** | Functions, cursor, active markers, badges, bright highlights | Large surfaces, errors |
+| **Sky** | Strings, success, additions | Warnings |
+| **Orange** | Numbers, constants, parameters, warnings | Errors |
+| **Green** | Types, info messages, ANSI cyan | Errors |
+| **Red** | Errors, deletions, invalid code | Anything else |
+| **Glow** | Decorators, escapes, regular expressions, ANSI magenta | Common tokens |
 
 Additional rules:
 
@@ -53,12 +53,12 @@ Additional rules:
 | ANSI | Role | Hue |
 | --- | --- | --- |
 | black / bright black | `ansi.black` / `ansi.brightBlack` | neutral (dim text uses bright black) |
-| red | `ansi.red` | urucum |
-| green | `ansi.green` | verde |
-| yellow | `ansi.yellow` | ouro |
-| blue | `ansi.blue` | azul |
-| magenta | `ansi.magenta` | ipê |
-| cyan | `ansi.cyan` | turquesa |
+| red | `ansi.red` | red |
+| green | `ansi.green` | sky |
+| yellow | `ansi.yellow` | gold |
+| blue | `ansi.blue` | blue |
+| magenta | `ansi.magenta` | glow |
+| cyan | `ansi.cyan` | green |
 | white | `ansi.white` | neutral |
 
 Bright variants are the lighter step of the same hue. Terminal foreground is `fg.default`, background is `bg.base`, cursor is `accent.secondary`.

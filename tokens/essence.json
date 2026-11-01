@@ -4,38 +4,38 @@
   "id": "caninde",
   "inspiration": "Arara-Canindé (Ara ararauna), the blue-and-yellow macaw",
   "seeds": {
-    "azul": {
-      "hex": "#1E9BD7",
+    "blue": {
+      "hex": "#039EF0",
       "from": "ave",
       "note": "Back and wings. The brand color."
     },
-    "turquesa": {
-      "hex": "#2BB5B0",
+    "green": {
+      "hex": "#7CCB04",
       "from": "ave",
       "note": "Interpolated where the green crown melts into the blue."
     },
-    "verde": {
-      "hex": "#A3B83A",
+    "sky": {
+      "hex": "#69B1CD",
       "from": "ave",
       "note": "Crown."
     },
-    "ouro": {
-      "hex": "#F2B01E",
+    "gold": {
+      "hex": "#DFAB07",
       "from": "ave",
       "note": "Chest. The highlight color."
     },
-    "laranja": {
-      "hex": "#E8892B",
+    "orange": {
+      "hex": "#EE7B00",
       "from": "ave",
       "note": "Neck, the warm transition between chest and wing."
     },
-    "urucum": {
-      "hex": "#E85D52",
-      "from": "cultura",
-      "note": "Not on the bird. Annatto (urucum) pigment, reserved for errors."
+    "red": {
+      "hex": "#D41015",
+      "from": "ave",
+      "note": "Comes from a variation of the Arara-Canindé, the Arara-vermelha (Ara chloropterus)."
     },
-    "ipe": {
-      "hex": "#C77FD8",
+    "glow": {
+      "hex": "#DFCF00",
       "from": "flora",
       "note": "Not on the bird. Ipê blossoms, a rare accent for decorators and escapes."
     }
