@@ -5,42 +5,42 @@ on:
 
 jobs:
   verify:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
-          node-version: 22
+          node-version: 24
       - name: A tag bate com a versão do package.json
         run: test "v$(node -p "require('./packages/vscode/package.json').version")" = "$GITHUB_REF_NAME"
       - run: npm run verify
 
   open-vsx:
     needs: verify
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     permissions:
       contents: read
       id-token: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
-          node-version: 22
+          node-version: 24
       - name: Publish to Open VSX
         working-directory: packages/vscode
         run: npx --yes ovsx@1 publish --trusted-publishing --skip-duplicate
 
   marketplace:
     needs: verify
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     permissions:
       contents: read
       id-token: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
-          node-version: 22
+          node-version: 24
       - name: Publish to VS Code Marketplace
         working-directory: packages/vscode
         run: npx --yes @vscode/vsce@4 publish --oidc --skip-duplicate
