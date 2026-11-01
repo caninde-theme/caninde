@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - name: A tag bate com a versão do package.json
         run: test "v$(node -p "require('./packages/vscode/package.json').version")" = "$GITHUB_REF_NAME"
       - run: npm run verify
@@ -25,10 +25,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - name: Publish to Open VSX
         working-directory: packages/vscode
-        run: npx --yes ovsx publish --trusted-publishing
+        run: npx --yes ovsx@1 publish --trusted-publishing --skip-duplicate
 
   marketplace:
     needs: verify
@@ -40,7 +40,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - name: Publish to VS Code Marketplace
         working-directory: packages/vscode
-        run: npx --yes @vscode/vsce publish --oidc
+        run: npx --yes @vscode/vsce@4 publish --oidc --skip-duplicate
